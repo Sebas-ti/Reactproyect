@@ -6,7 +6,7 @@ function Proyectos() {
 
       <img 
       className="Imagen-Proyectos" 
-      src={require("../imagenes/Proyecto-ganadero.png")}
+      src={require("../images/Proyecto-ganadero.png")}
       alt="Imagen del 1 proyecto" 
       />
 
