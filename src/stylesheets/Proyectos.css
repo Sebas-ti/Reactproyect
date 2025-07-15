@@ -1,0 +1,29 @@
+
+.Contenedor-Proyectos{
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+
+}
+
+.Imagen-Proyectos {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 300px; 
+  max-height: 300px; 
+  object-fit: cover;  
+}
+
+.Contenedor-Texto-Proyectos{
+
+
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

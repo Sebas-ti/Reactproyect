@@ -1,11 +1,11 @@
 
 import './App.css';
-import Proyectos from './components/Proyectos.jsx'
+import Proyectos from './components/Proyectos.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className='Titulo-Proyectos'>
+      <div className='contenedor-principal'>
         <h1> Mi portafolio </h1>
       </div>
       <Proyectos/>
