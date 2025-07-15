@@ -1,20 +1,38 @@
-@import url(https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap);
 
 *{
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html,body{
-font: size 120px;
-background-color: #f5f6f7;
+  font: size 120px;
+  background-color: #f5f6f7;
 }
 
 h1{
-max-width: 940px;
-font-size: 2.5rem;
-font-family: Winky Rough,sans-serif;
-font-weight: 700;
-line-height: 1.1;
-margin: 30px 0;
+  max-width: 100px;
+  font-size: 2.5rem;
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+
+.Titulo-Proyectos{
+  min-height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Contenedor-Proyectos{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
