@@ -21,10 +21,10 @@ function App() {
       </div>
 
       <Proyectos
-      Imagen="SantosWeed" 
-      NombreProyecto="SantosWeed"
-      HerramientasUsadas="Herramientas del Segundo Proyecto"
-      DescripcionProyecto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor enim sit amet massa bibendum gravida. Proin vehicula odio sit amet massa tincidunt congue. Suspendisse eu sapien gravida, aliquet nibh ac, auctor magna. Morbi porta sem ut mauris iaculis dictum. Nullam congue ligula eu feugiat laoreet. Duis enim ex, condimentum vel turpis sit amet, dictum cursus magna. Sed urna lorem, pharetra non elit ac, cursus bibendum metus. Quisque nec aliquam eros.."
+      Imagen="Goallish" 
+      NombreProyecto="Goallish"
+      HerramientasUsadas="HTML,CSS,JavaScript,REACT,Tailwind,Python,Django Y PostgreSQL"
+      DescripcionProyecto="Este software está diseñado para optimizar y digitalizar todas las operaciones de un restaurante, desde la cocina hasta la atención al cliente Las Funcionalidades principales son Gestión de Menús,Control de Inventario,Pedidos y Mesas,Facturación y Pagos,Gestión del Personal y Reportes y Análisis"
       />
 
       <div className="video-wrapper-medium">
