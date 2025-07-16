@@ -1,0 +1,17 @@
+.video-wrapper-small {
+  max-width: 560px; /* Define el ancho máximo del video */
+  margin: 20px auto; /* Centra el contenedor horizontalmente y añade espacio */
+  border: 1px solid #ccc; /* Opcional: para visualizar el contenedor */
+  padding: 5px; /* Opcional */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Opcional */
+}
+
+/* Estilos para el contenedor del video mediano */
+.video-wrapper-medium {
+  width: 75%; /* Define que ocupe el 75% del ancho de su padre */
+  max-width: 900px; /* Opcional: Un ancho máximo para pantallas muy grandes */
+  margin: 20px auto; /* Centra el contenedor horizontalmente y añade espacio */
+  border: 1px solid #ccc; /* Opcional */
+  padding: 5px; /* Opcional */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Opcional */
+}

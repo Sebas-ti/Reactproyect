@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheets/YouTube.css'
 
 function YouTube({ videoId, title = 'YouTube video player' }) {
   // Construye la URL de incrustación de YouTube
@@ -8,7 +9,7 @@ function YouTube({ videoId, title = 'YouTube video player' }) {
     <div className="video-container" style={{
       position: 'relative',
       width: '100%',
-      paddingBottom: '56.25%', /* 16:9 Aspect Ratio */
+      paddingBottom: '56.25%', /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
       height: 0,
       overflow: 'hidden',
       maxWidth: '100%',
