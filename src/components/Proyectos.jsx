@@ -13,7 +13,7 @@ function Proyectos(props) {
 
     <div className="Contenedor-Texto-Proyectos">
 
-      <p className="Titulo-Proyectos">{props.NombreProyecto}</p>
+      <p className="Titulo-Proyectos"><strong>{props.NombreProyecto}</strong></p>
       <p className="Herramientas-usadas">{props.HerramientasUsadas}</p>
       <p className="Descripcion_Proyecto">{props.DescripcionProyecto}</p>
     </div>
